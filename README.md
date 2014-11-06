@@ -22,7 +22,7 @@ Now stop. Don't make any more changes to Rails, no matter how basic they seem. F
 
 Let's say you want to do something basic like add new gems to the Gemfile. Here are the steps to follow: 
 
-1. Create a new issue in your issue tracker. Assign this to a team member and talk about this with your team to make sure you are in agreement as to what the work entails, who will do it, and any larger decisions. *All work must have an issue associated, no matter how small*
+1. Create a new issue in your issue tracker (Asana). Assign this to a team member and talk about this with your team to make sure you are in agreement as to what the work entails, who will do it, and any larger decisions. *All work must have an issue associated, no matter how small*
 2. Whoever is assigned the work will create a new branch for the issue. In the branch name, reference the issue number from your issue tracker and a short description. From the master branch for example I might run `git checkout -b 1_add_testing_gems`. Now I'm on the `1_add_testing_gems` branch and can start doing work.
 3. Write tests (optional, but recommended). Tests should reflect work planned in the issue tracker.
 4. Write code to fulfill tests, making git commits along the way as tests pass. 
